@@ -43,3 +43,12 @@ def fix_teen(n):
   if n [13, 14, 17, 18, 19]:
     return 0
   return n
+
+# return number of even integers in the given array
+
+def count_evens(nums):
+  count = 0
+  for number in nums:
+    if number % 2 == 0:
+      count += 1
+  return count
