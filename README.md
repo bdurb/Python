@@ -1,3 +1,7 @@
 # Python
 
-algos and what have you.
+## functions
+- python algo challenges
+
+## codeguess
+- in terminal code guessing game
