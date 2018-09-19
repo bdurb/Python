@@ -25,3 +25,10 @@ def end_other(a, b):
   # return(b.endswith(a) or a.endswith(b))
   return a[-(len(b)):] == b or a == b[-len(a):]
 
+#given a string, return a string with each char doubled
+
+def double_Char(mystring):
+  result = ''
+  for char in mystring:
+    result += char*2
+  return result
