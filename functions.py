@@ -25,10 +25,21 @@ def end_other(a, b):
   # return(b.endswith(a) or a.endswith(b))
   return a[-(len(b)):] == b or a == b[-len(a):]
 
-#given a string, return a string with each char doubled
+# given a string, return a string with each char doubled
 
 def double_Char(mystring):
   result = ''
   for char in mystring:
     result += char*2
   return result
+
+# given 3 integer values, return their sum, if numbers are between 13 and 19 they count as 0, except
+# for 15 and 16
+
+def no_teen_cum(a, b, c):
+  return fix_teen(a) + fix_teen(b) + fix_teen(c)
+
+def fix_teen(n):
+  if n [13, 14, 17, 18, 19]:
+    return 0
+  return n
